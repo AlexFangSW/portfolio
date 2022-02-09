@@ -1,17 +1,17 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Blobs from '@/views/Blobs'
+import { createRouter, createWebHistory } from "vue-router";
+import Main from "@/views/Main";
 
 const routes = [
   {
-    path: '/',
-    name: 'Blobs',
-    component: Blobs
-  }
-]
+    path: "/",
+    name: "Main",
+    component: Main,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
