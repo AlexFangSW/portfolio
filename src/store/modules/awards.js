@@ -6,12 +6,13 @@ export default {
     // Awards (Temporarily. Will be moved into database later.)
     awards: [
       {
-        title: "Yeeeeeet",
-        abstract: "This is the abstract",
+        title: "實務專題製作競賽",
+        abstract:
+          "參加2021年國立高雄科技大學，電機與資訊學院學生實務專題製作競賽。獲得佳作。",
       },
       {
-        title: "",
-        abstract: "",
+        title: "程式交易競賽",
+        abstract: "參加金融程式交易競賽，獲得佳作。",
       },
       {
         title: "",

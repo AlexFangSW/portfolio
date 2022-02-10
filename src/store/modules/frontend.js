@@ -12,12 +12,12 @@ export default {
     },
     projects: [
       {
-        title: "Front-End Project",
-        abstract: "This is the abstract",
+        title: "履歷網站(本網頁)",
+        abstract: "利用Vuejs製作。結合先前所學，將RWD、Accessibility實作。",
       },
       {
-        title: "",
-        abstract: "",
+        title: "練習HTML、JS、CSS運用",
+        abstract: "實作小插件以練習CSS animation、JS控制HTML DOM等。",
       },
       {
         title: "",
