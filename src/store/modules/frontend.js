@@ -17,7 +17,7 @@ export default {
       },
       {
         title: "練習HTML、JS、CSS運用",
-        abstract: "實作小插件以練習CSS animation、JS控制HTML DOM等。",
+        abstract: "實作小插件以練習CSS動畫、JS控制HTML DOM等。",
       },
       {
         title: "",

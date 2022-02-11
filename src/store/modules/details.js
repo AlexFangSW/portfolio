@@ -6,17 +6,20 @@ export default {
     opened: false,
     className: "",
     projectName: "",
+    abstract: "",
   },
   mutations: {
-    setOpened(state, { cName, pName }) {
+    setOpened(state, { cName, pName, abstract }) {
       state.opened = true;
       state.className = cName;
       state.projectName = pName;
+      state.abstract = abstract;
     },
     setClosed(state) {
       state.opened = false;
       state.className = "";
       state.projectName = "";
+      state.abstract = "";
     },
   },
   actions: {},

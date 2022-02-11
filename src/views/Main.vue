@@ -12,6 +12,7 @@
     <!-- Arrow 讓人知道可以往下滑 -->
     <FloatingArrow />
     <!-- Details -->
+    <Details />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Introduction from "@/components/Introduction";
 import ProjectsAndSkills from "@/components/ProjectsAndSkills";
 import Awards from "@/components/Awards";
 import FloatingArrow from "@/components/FloatingArrow";
+import Details from "@/components/Details";
 
 export default {
   mounted() {
@@ -42,6 +44,7 @@ export default {
     ProjectsAndSkills,
     Awards,
     FloatingArrow,
+    Details,
   },
 };
 </script>

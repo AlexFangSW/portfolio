@@ -15,9 +15,13 @@ import { mapMutations } from "vuex";
 export default {
   props: ["title", "abstract", "className"],
   methods: {
-    ...mapMutations("details", ["setOpened", "setClosed"]),
+    ...mapMutations("details", ["setOpened"]),
     openDetails() {
-      this.setOpened({ cName: this.className, pName: this.title });
+      this.setOpened({
+        cName: this.className,
+        pName: this.title,
+        abstract: this.abstract,
+      });
     },
   },
 };
