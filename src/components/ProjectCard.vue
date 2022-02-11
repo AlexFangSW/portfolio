@@ -4,13 +4,22 @@
     <div class="abstract">
       {{ abstract }}
     </div>
-    <button class="call-of-action">click for more +</button>
+    <button class="call-of-action" @click="openDetails()">
+      click for more +
+    </button>
   </div>
 </template>
 
 <script>
+import { mapMutations } from "vuex";
 export default {
-  props: ["title", "abstract"],
+  props: ["title", "abstract", "className"],
+  methods: {
+    ...mapMutations("details", ["setOpened", "setClosed"]),
+    openDetails() {
+      this.setOpened({ cName: this.className, pName: this.title });
+    },
+  },
 };
 </script>
 

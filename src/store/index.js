@@ -3,6 +3,7 @@ import { createStore } from "vuex";
 import awards from "./modules/awards";
 import frontend from "./modules/frontend";
 import aiNLP from "./modules/aiNLP";
+import details from "./modules/details";
 
 export default createStore({
   state: {},
@@ -12,5 +13,6 @@ export default createStore({
     awards,
     frontend,
     aiNLP,
+    details,
   },
 });

@@ -8,6 +8,7 @@
         :key="index"
         :title="v.title"
         :abstract="v.abstract"
+        :className="'awards'"
       />
     </div>
   </div>

@@ -29,6 +29,10 @@ export default {
       },
     ],
   },
-  mutations: {},
+  mutations: {
+    toggleActive(state) {
+      state.active = !state.active;
+    },
+  },
   actions: {},
 };
