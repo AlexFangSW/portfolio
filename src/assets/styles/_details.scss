@@ -1,13 +1,20 @@
+$details-font-color: black;
+$details-opacity: 0.4;
 .details {
   animation: show-up 0.25s;
   animation-fill-mode: forwards;
   // Glass effect
-  background: rgba(255, 255, 255, 0.7); // 透明
+  background: rgba(255, 255, 255, $details-opacity); // 透明
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px); // 毛玻璃
   -webkit-backdrop-filter: blur(20px);
   padding: 0.5em;
+  color: $details-font-color;
+  svg {
+    fill: $details-font-color;
+  }
 }
+
 .details {
   position: fixed;
   font-size: clamp(0.9rem, 1.5vw, 1.1rem);
@@ -39,7 +46,7 @@
         right: 100%;
         height: 100%;
         background-color: transparent;
-        fill: rgb(0, 0, 0, 0.5);
+        fill: $details-font-color;
         pointer-events: none;
       }
     }
@@ -55,7 +62,7 @@
     .title,
     .abstract,
     .detail-content {
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid $details-font-color;
       width: 100%;
       display: flex;
       flex-direction: column;

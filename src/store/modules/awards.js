@@ -12,7 +12,7 @@ export default {
       },
       {
         title: "程式交易競賽",
-        abstract: "參加金融程式交易競賽，獲得佳作。",
+        abstract: "參加第四屆高雄杯程式交易競賽。獲得佳作。",
       },
       {
         title: "",

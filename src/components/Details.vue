@@ -25,6 +25,10 @@
           v-if="className == 'front-end'"
           :projectName="projectName"
         />
+        <AwardsDetails
+          v-if="className == 'awards'"
+          :projectName="projectName"
+        />
       </div>
     </div>
   </div>
@@ -33,6 +37,7 @@
 <script>
 import { mapState, mapMutations } from "vuex";
 import FrontendDetails from "@/components/FrontendDetails";
+import AwardsDetails from "@/components/AwardsDetails";
 
 export default {
   computed: {
@@ -46,6 +51,7 @@ export default {
   },
   components: {
     FrontendDetails,
+    AwardsDetails,
   },
 };
 </script>

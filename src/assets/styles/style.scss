@@ -86,6 +86,7 @@ $gap-size: 0.5rem;
 $padding-size: 1rem;
 $font-size: 0.8rem;
 $transition-time: 0.25s;
+$card-opacity: 0.4;
 .card {
   width: 100%;
   min-height: 100vh;
@@ -170,7 +171,7 @@ $transition-time: 0.25s;
         cursor: pointer;
         &:hover,
         &.active {
-          background-color: rgb(255, 255, 255, 0.5);
+          background-color: rgb(255, 255, 255, $card-opacity);
           box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
           color: black;
           font-weight: bold;
@@ -263,7 +264,7 @@ $transition-time: 0.25s;
   }
 }
 .project {
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255, $card-opacity);
   padding: $padding-size;
   border-radius: 0.5em;
   height: 100%;
@@ -289,7 +290,7 @@ $transition-time: 0.25s;
     border: none;
     border-radius: 0.25em;
     cursor: pointer;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, $card-opacity);
     width: 100%;
     font-weight: bold;
   }
