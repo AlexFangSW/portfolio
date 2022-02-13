@@ -29,6 +29,7 @@
           v-if="className == 'awards'"
           :projectName="projectName"
         />
+        <AINLPDetails v-if="className == 'ai-nlp'" :projectName="projectName" />
       </div>
     </div>
   </div>
@@ -38,6 +39,7 @@
 import { mapState, mapMutations } from "vuex";
 import FrontendDetails from "@/components/FrontendDetails";
 import AwardsDetails from "@/components/AwardsDetails";
+import AINLPDetails from "@/components/AINLPDetails";
 
 export default {
   computed: {
@@ -52,6 +54,7 @@ export default {
   components: {
     FrontendDetails,
     AwardsDetails,
+    AINLPDetails,
   },
 };
 </script>

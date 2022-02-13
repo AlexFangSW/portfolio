@@ -4,6 +4,7 @@ import awards from "./modules/awards";
 import frontend from "./modules/frontend";
 import aiNLP from "./modules/aiNLP";
 import details from "./modules/details";
+import AIDetails from "./modules/AIDetails";
 
 export default createStore({
   state: {},
@@ -14,5 +15,6 @@ export default createStore({
     frontend,
     aiNLP,
     details,
+    AIDetails,
   },
 });
