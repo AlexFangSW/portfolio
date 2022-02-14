@@ -20,12 +20,12 @@ export default {
         abstract: "實作小插件以練習CSS動畫、JS控制HTML DOM等。",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
     ],
   },

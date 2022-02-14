@@ -6,6 +6,10 @@
       <Introduction />
       <!-- projects & skills -->
       <ProjectsAndSkills />
+      <!-- practice -->
+      <Practice />
+      <!-- certificate  -->
+      <Certificate />
       <!-- awards -->
       <Awards />
     </div>
@@ -23,6 +27,8 @@ import ProjectsAndSkills from "@/components/ProjectsAndSkills";
 import Awards from "@/components/Awards";
 import FloatingArrow from "@/components/FloatingArrow";
 import Details from "@/components/Details";
+import Certificate from "@/components/Certificate";
+import Practice from "@/components/Practice";
 
 export default {
   mounted() {
@@ -45,6 +51,8 @@ export default {
     Awards,
     FloatingArrow,
     Details,
+    Certificate,
+    Practice,
   },
 };
 </script>

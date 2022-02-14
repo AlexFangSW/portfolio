@@ -21,12 +21,12 @@ export default {
           "專為長文本所製作，分割出文章中各個主題，再從中挑選摘要句，獲得較為全面的摘要。降低因文章篇幅長，摘要後所遺漏的細節。",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
     ],
   },

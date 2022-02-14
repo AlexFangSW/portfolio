@@ -15,12 +15,12 @@ export default {
         abstract: "參加第四屆高雄杯程式交易競賽。獲得佳作。",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
       {
-        title: "",
-        abstract: "",
+        title: "Placeholder",
+        abstract: "Placeholder",
       },
     ],
   },

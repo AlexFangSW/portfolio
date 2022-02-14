@@ -30,6 +30,10 @@
           :projectName="projectName"
         />
         <AINLPDetails v-if="className == 'ai-nlp'" :projectName="projectName" />
+        <CertificateDetails
+          v-if="className == 'certificate'"
+          :projectName="projectName"
+        />
       </div>
     </div>
   </div>
@@ -40,6 +44,7 @@ import { mapState, mapMutations } from "vuex";
 import FrontendDetails from "@/components/FrontendDetails";
 import AwardsDetails from "@/components/AwardsDetails";
 import AINLPDetails from "@/components/AINLPDetails";
+import CertificateDetails from "@/components/CertificateDetails";
 
 export default {
   computed: {
@@ -55,6 +60,7 @@ export default {
     FrontendDetails,
     AwardsDetails,
     AINLPDetails,
+    CertificateDetails,
   },
 };
 </script>
