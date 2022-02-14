@@ -77,7 +77,7 @@ $card-opacity: 0.4;
     &.practice-container {
       .practice {
         // mobile version
-        height: 13em * 1.8;
+        height: 100%;
         grid-template-columns: 100%;
         grid-template-rows: none; // override
         grid-auto-flow: row; // override
