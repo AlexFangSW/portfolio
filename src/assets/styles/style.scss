@@ -321,6 +321,9 @@ $card-opacity: 0.4;
         grid-auto-rows: 13em;
       }
     }
+    .awards {
+      max-height: 13em * 2;
+    }
   }
   .project {
     .abstract {
